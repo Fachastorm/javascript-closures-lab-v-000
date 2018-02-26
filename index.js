@@ -4,10 +4,10 @@ function bumpCounter() {
   var counter = 0;
 
     function addBump() {
-        counter += 1;
+        counter++;
     }
 
     function getBumps() {
-      return counter; 
+      return counter;
     }
 }
